@@ -1,0 +1,56 @@
+﻿
+body{
+  background-color :powderblue;
+}
+
+.WeekEnd
+{
+   background-color :yellow;
+}
+
+.WeekDays
+{
+   background-color :Aquamarine;
+}
+
+.Holidays
+{
+   background-color :orangered;
+}
+
+.NoDays
+{
+   background-color :LightGrey ;
+}
+
+tr .Holidays{
+    border:dashed 1px
+}
+
+table {
+    table-layout: fixed;
+    max-width: 600px;
+    width: 100%;
+}
+
+th, td {
+     width:25px !important ;
+     text-align: center;
+    overflow: hidden;
+    max-width: 300px;
+    width: 100%;
+}
+
+div.inline {
+    display: inline-block;
+}
+
+div.month {
+    margin-top:5px;
+    text-align: center;
+    overflow: hidden;
+    max-width: 175px;
+    width: 100%;
+    background-color :#b1ca9f;
+
+}
